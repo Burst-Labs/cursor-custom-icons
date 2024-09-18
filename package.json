@@ -1,0 +1,55 @@
+{
+	"name": "cursor-custom-icons",
+	"displayName": "Cursor Custom Icons",
+	"description": "A big pack of icons (200+) for your files.",
+	"version": "0.0.1",
+	"publisher": "cursor",
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"scripts": {
+		"publish": "vsce publish",
+		"patch": "vsce publish patch"
+	},
+	"categories": [
+		"Other",
+		"Themes"
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "cursor-custom-icons",
+				"label": "Cursor Custom Icons",
+				"path": "./icons.json"
+			}
+		]
+	},
+	"icon": "images/vscode-great-icons_icon.png",
+	"galleryBanner": {
+		"color": "#e0e0e0",
+		"theme": "light"
+	},
+	"keywords": [
+		"icons",
+		"theme",
+		"icon-theme",
+		"customization"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Burst-Labs/cursor-custom-icons.git"
+	},
+	"author": {
+		"email": "contact@cursor.sh",
+		"name": "Cursor",
+		"url": "https://cursor.sh"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Burst-Labs/cursor-custom-icons/issues"
+	},
+	"homepage": "https://github.com/Burst-Labs/cursor-custom-icons#readme",
+	"devDependencies": {
+		"@vscode/vsce": "^3.1.0"
+	}
+}
