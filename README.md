@@ -1,0 +1,1 @@
+# cursor-custom-icons
